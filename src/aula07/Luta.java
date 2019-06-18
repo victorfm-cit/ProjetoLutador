@@ -1,39 +1,36 @@
 package aula07;
 
 public class Luta {
-    private String desafiado;
-    private String desafiante;
+    private Lutador desafiado;
+    private Lutador desafiante;
     private int rounds;
     private boolean aprovada;
 
     //Metodos
-    public void marcarLuta(){
+    public void marcarLuta() {
 
     }
 
     public void lutar() {
-        if (true){
-            desafiado.this.aprese ntar();
-        }
 
     }
 
     //Metodos Especiais
 
 
-    public String getDesafiando() {
+    public Lutador getDesafiado() {
         return desafiado;
     }
 
-    public void setDesafiando(String desafiando) {
-        this.desafiado = desafiando;
+    public void setDesafiado(Lutador desafiado) {
+        this.desafiado = desafiado;
     }
 
-    public String getDesafiante() {
+    public Lutador getDesafiante() {
         return desafiante;
     }
 
-    public void setDesafiante(String desafiante) {
+    public void setDesafiante(Lutador desafiante) {
         this.desafiante = desafiante;
     }
 

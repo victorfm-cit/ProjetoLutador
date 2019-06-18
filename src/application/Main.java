@@ -6,10 +6,10 @@ public class Main {
     public static void main(String[] args) {
         Lutador l[] = new Lutador[4];
         l[0] = new Lutador("Boy Pretty", "França", 35, 1.75f,
-                68.0f, 12, 4, 1);
+                58.0f, 12, 4, 1);
 
         l[1] = new Lutador("Trememe", "Brasil", 25, 1.68f,
-                78.0f, 10, 2, 0);
+                64.0f, 10, 2, 0);
 
 
         l[2] = new Lutador("Jorge Amorin", "Japão", 38, 1.85f,
